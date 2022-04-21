@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!--lightgallery plugins-->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-video.js/master/dist/lg-video.js"></script>
+
+
+    <link type="text/css" rel="stylesheet" href="lg-css/lightgallery.css" />
+
+    <!-- lightgallery plugins -->
+    <link type="text/css" rel="stylesheet" href="lg-css/lg-zoom.css" />
+    <link type="text/css" rel="stylesheet" href="lg-css/lg-video.css" />
+    <link type="text/css" rel="stylesheet" href="lg-css/lg-thumbnail.css" />
+
+
+
+    <!-- OR -->
+
+    <link type="text/css" rel="stylesheet" href="lg-css/lightgallery-bundle.css" />
+
+    <script src="lg-js/lightgallery.umd.js"></script>
+    <!-- Or use the minified version -->
+    <script src="lg-js/lightgallery.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="lg-js/plugins/lg-thumbnail.umd.js"></script>
+    <script src="lg-js/plugins/lg-video.js"></script>
+    <script src="lg-js/plugins/lg-video.min.js"></script>
+    <script src="lg-js/plugins/lg-zoom.umd.js"></script>
+
+    <title>lg video test xd</title>
+</head>
+
+<body>
+
+
+    <!-- video lightgallery 
+============================================= -->
+    <div id="lightgallery">
+        <!-- <a href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                    data-poster="https://via.placeholder.com/150"><img
+                                        src="https://via.placeholder.com/150" /></a> -->
+
+        <a data-lg-size="1280-720" href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            data-poster="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            data-sub-html="<h4>asd</h4><p>asd</p>">
+            <img width="300" height="150" class="img-responsive"
+                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" />
+        </a>
+
+        <a data-lg-size="1280-720" data-src="//www.youtube.com/embed/dQw4w9WgXcQ"
+            data-poster="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            data-sub-html="<h4>asd</h4><p>asd</p>">
+            <img width="300" height="150" class="img-responsive"
+                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" />
+        </a>
+
+        <a data-lg-size="1280-720" data-src="//www.youtube.com/embed/dQw4w9WgXcQ"
+            data-poster="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            data-sub-html="<h4>asd</h4><p>asd</p>">
+            <img width="300" height="150" class="img-responsive"
+                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" />
+        </a>
+
+        <a data-lg-size="1280-720" data-src="//www.youtube.com/embed/dQw4w9WgXcQ"
+            data-poster="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+            data-sub-html="<h4>asd</h4><p>asd</p>">
+            <img width="300" height="150" class="img-responsive"
+                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" />
+        </a>
+
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script> -->
+
+    <script src="lg-js/lightgallery.js"></script>
+    <!-- lightgallery plugins-->
+    <script src="lg-js/lightgallery.umd.js"></script>
+    <!-- Or use the minified version -->
+    <script src="lg-js/lightgallery.min.js"></script>
+
+
+    <!-- lightgallery plugins -->
+    <!-- <script src="https://cdn.rawgit.com/sachinchoolur/lg-video.js/master/dist/lg-video.js"></script> -->
+    <script src="lg-js/lg-video.js"></script>
+    <script src="lg-js/plugins/lg-video.min.js"></script>
+    <script src="lg-js/plugins/lg-thumbnail.umd.js"></script>
+    <script src="lg-js/plugins/lg-zoom.umd.js"></script>
+
+
+    <!--LG scripts-->
+    <script>
+        // lightGallery(document.getElementById('gallery-videos'), {
+        //     plugins: [lgVideo],
+        // });
+
+        // lightGallery(document.getElementById('lightgallery'), {
+        //     plugins: [lgVideo],
+        //     videojs: true,
+        //     videojsOptions: {
+        //         muted: true,
+        //     },
+        // });
+
+
+        // lightGallery(document.getElementById('lightgallery'), {
+        //     plugins: [],  /* if i add the lgVideo pluggin it dies here... */
+        //     speed: 200,
+        // });
+/* */
+        lightGallery(document.getElementById('lightgallery'));
+
+
+    </script>
+</body>
+
+</html>
